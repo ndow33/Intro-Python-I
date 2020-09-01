@@ -12,7 +12,7 @@ import os
 
 # Print out the command line arguments in sys.argv, one per line:
 print('_________________________________________________')
-for command in dir(sys.argv):
+for command in sys.argv:
     print(command)
 
 # Print out the OS platform you're using:
