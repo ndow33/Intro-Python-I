@@ -17,6 +17,7 @@ automatically.
 
 import math
 
+
 def dist(a, b):
     """Compute the distance between two x,y points."""
     x0, y0 = a  # Destructuring assignment
@@ -29,7 +30,6 @@ b = (-14, 72)
 
 # Prints "Distance is 66.94"
 print("Distance is: {:.2f}".format(dist(a, b)))
-
 
 
 # Write a function `print_tuple` that prints all the values in a tuple
@@ -47,4 +47,3 @@ print_tuple(t)
 # Declare a tuple of 1 element then print it
 u = (1,)  # What needs to be added to make this work? A comma
 print(u)
-
